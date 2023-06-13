@@ -1,8 +1,40 @@
+body{
+background-color: rgb(230, 207, 241);    
+}
 h1{
+margin:4%;
+font-size:  250%;
 text-align: center;
 }
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#contador{
+    margin-bottom: 4%;
+    font-size:  170%;
+}
+
+#decrementar{
+    background-color: #f44336d2;
+    font-size: 16px;
+    font-weight:600;
+    padding: 10px 24px;
+    border-radius: 12px;
+}
+#reiniciar{
+    background-color: #e7e7e7; color: black;
+    font-size: 16px;
+    font-weight:600;
+    padding: 10px 24px;
+    border-radius: 12px;
+}
+#incrementar{
+    background-color: #4caf4fc7;
+    font-size: 16px;
+    font-weight:600;
+    padding: 10px 24px;
+    border-radius: 12px;
 }
